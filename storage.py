@@ -21,10 +21,6 @@ class Storage:
             self.data[key] = value
         else:
             print('key_not_found')
-      
-
-    def set(self):
-        pass
     
     def add(self, key, value):
         self.data[key]=value
