@@ -3,10 +3,7 @@ from storage import Storage
 def test_add():
     st=Storage()
     st.add('a', 1)
-    if st.get('a')!=1:
-        print("Error! Test failed")
-    else:
-        print("Test is ok")
+    assert st.get('a')!=1, "Value for the key {} is not exist"
 
 def test_remove():
     pass
