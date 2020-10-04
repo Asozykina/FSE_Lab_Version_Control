@@ -22,5 +22,8 @@ class Storage:
             print('key_not_found')
       
 
+    def set(self):
+        pass
+    
     def add(self):
         pass
